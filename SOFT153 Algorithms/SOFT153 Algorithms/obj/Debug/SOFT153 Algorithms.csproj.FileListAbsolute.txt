@@ -1,0 +1,12 @@
+c:\users\tobyb\documents\visual studio 2017\Projects\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.csprojResolveAssemblyReference.cache
+c:\users\tobyb\documents\visual studio 2017\Projects\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe.config
+c:\users\tobyb\documents\visual studio 2017\Projects\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe
+c:\users\tobyb\documents\visual studio 2017\Projects\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.pdb
+c:\users\tobyb\documents\visual studio 2017\Projects\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.exe
+c:\users\tobyb\documents\visual studio 2017\Projects\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.pdb
+E:\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe.config
+E:\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.exe
+E:\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.pdb
+E:\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe
+E:\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.pdb
+E:\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.csprojResolveAssemblyReference.cache
