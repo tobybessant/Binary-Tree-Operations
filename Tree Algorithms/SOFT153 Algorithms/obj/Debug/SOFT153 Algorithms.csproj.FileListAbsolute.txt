@@ -10,3 +10,9 @@ E:\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.pdb
 E:\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe
 E:\SOFT153 Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.pdb
 E:\SOFT153 Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\Toby\Documents\GitHub\Binary-Tree-Operations\Tree Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe.config
+C:\Users\Toby\Documents\GitHub\Binary-Tree-Operations\Tree Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.exe
+C:\Users\Toby\Documents\GitHub\Binary-Tree-Operations\Tree Algorithms\SOFT153 Algorithms\bin\Debug\SOFT153 Algorithms.pdb
+C:\Users\Toby\Documents\GitHub\Binary-Tree-Operations\Tree Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\Toby\Documents\GitHub\Binary-Tree-Operations\Tree Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.exe
+C:\Users\Toby\Documents\GitHub\Binary-Tree-Operations\Tree Algorithms\SOFT153 Algorithms\obj\Debug\SOFT153 Algorithms.pdb

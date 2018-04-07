@@ -405,71 +405,110 @@ namespace SOFT153_Algorithms
             add(subset, 3);
 
             //Add a set of ints (entered by the user) to the set by appending them onto the last one.
-            int input = 0;
-            Console.WriteLine("Please enter individual ints to create a set of ints. '-1' to end set creation.");
-            while (input >= 0)
+            string input;
+            Console.WriteLine("Please enter integers one at a time to create and append a set of ints. Enter 'x' to complete set creation");
+            while (true)
             {
-                input = Convert.ToInt32(Console.ReadLine());
-                if(input >=0)
-                    add(set, input);
+                input = Console.ReadLine();
+                if (input == "x")
+                {
+                    break;
+                }
+                else
+                {
+                    try
+                    {
+                        int inputAsInt = Convert.ToInt32(input);
+                        add(set, inputAsInt);
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Please enter a valid integer");
+                    }
+                }
             }
-            Console.WriteLine("-------------------------------------\n");
+    
+            Console.WriteLine("The set you have created is: ");
+            print(set);
+
+            Console.WriteLine("-------------------------------------");
 
             //checks if the head of the set is empty/null and returns it in a bool.
             bool empty = isEmpty(set);
             Console.WriteLine("isEmpty: " + empty);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
-            Console.WriteLine("Press enter to progress...");
-            Console.ReadLine();
+            //Console.WriteLine("Press enter to progress...");
+            //Console.WriteLine("-------------------------------------");
+            //Console.ReadLine();
 
 
             //gets the current size/length of the set.
             int setSize = size(set);
             Console.WriteLine("This set is " + setSize + " nodes in length");
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
-            Console.WriteLine("Press enter to progress...");
-            Console.ReadLine();
+            //Console.WriteLine("Press enter to progress...");
+            //Console.WriteLine("-------------------------------------");
+            //Console.ReadLine();
 
             //Checks if the users' input is present in the set.
             Console.WriteLine("Please enter an int to see if it is present in this set");
             int isPresent = Convert.ToInt32(Console.ReadLine());
             bool inSet = is_element_of(isPresent, set);
             Console.WriteLine("isPresent:" + inSet);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
-            Console.WriteLine("Press enter to progress...");
-            Console.ReadLine();
+            //Console.WriteLine("Press enter to progress...");
+            //Console.WriteLine("-------------------------------------");
+            //Console.ReadLine();
 
             //prints the complete set.
-            Console.WriteLine("Set: ");
-            print(set);
-            Console.WriteLine("-------------------------------------\n");
+            //Console.WriteLine("Set: ");
+            //print(set);
+            //Console.WriteLine("-------------------------------------");
 
-            Console.WriteLine("Press enter to progress...");
-            Console.ReadLine();
+            //Console.WriteLine("Press enter to progress...");
+            //Console.WriteLine("-------------------------------------");
+            //Console.ReadLine();
 
             //will search the set for the users input and remove it.
             Console.WriteLine("Please enter an int to remove");
-            int toRemove = Convert.ToInt32(Console.ReadLine());
-            remove(set, toRemove);
-            Console.WriteLine("-------------------------------------\n");
+            while (true)
+            {
+                int toRemove = Convert.ToInt32(Console.ReadLine());
+
+                if(!is_element_of(toRemove, set))
+                {
+                    Console.WriteLine("Please enter a valid integer (ERROR: int not present in set)");
+                }
+                else
+                {
+                    remove(set, toRemove);
+                    break;
+                }
+                
+            }
+
+            
+            Console.WriteLine("-------------------------------------");
             //prints the updated set with the users' input removed.
             Console.WriteLine("Updated set:");
             print(set);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
-            Console.WriteLine("Press enter to progress...");
-            Console.ReadLine();
+            //Console.WriteLine("Press enter to progress...");
+            //Console.WriteLine("-------------------------------------");
+            //Console.ReadLine();
 
             //copies the set to a new set & prints it.
             setCopy = copy(set, setCopy);
             Console.WriteLine("Copied set: ");
             print(setCopy);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
             Console.WriteLine("Press enter to progress...");
+            Console.WriteLine("-------------------------------------");
             Console.ReadLine();
 
             //returns if all the elements in the subset are present in the main set.
@@ -482,9 +521,10 @@ namespace SOFT153_Algorithms
             print(subset);
 
             Console.WriteLine("isSubset: " + isSubset);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
             Console.WriteLine("Press enter to progress...");
+            Console.WriteLine("-------------------------------------");
             Console.ReadLine();
 
             //returns the intersection of the sets.
@@ -497,9 +537,10 @@ namespace SOFT153_Algorithms
 
             Console.WriteLine("Intersection set: ");       
             print(intersectionSet);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("-------------------------------------");
 
             Console.WriteLine("Press enter to progress...");
+            Console.WriteLine("-------------------------------------");
             Console.ReadLine();
 
             Console.WriteLine("Press enter to clear the list.");
